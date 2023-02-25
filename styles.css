@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+
+}
+#container {
+    background-color: whitesmoke;
+    width: 300px;
+    height:400px;
+    margin: auto;
+    
+}
+.head {
+    display:flex;
+    justify-content: space-between;
+
+}
+.header left {
+    display:flex
+}
+img{
+    width: 300;
+    height: 400;
+}
