@@ -1,23 +1,38 @@
 body {
-    background-color: black;
+    background-color: white;
 
 }
-#container {
+.container {
     background-color: whitesmoke;
-    width: 300px;
+    width: 400px;
     height:400px;
     margin: auto;
     
 }
-.head {
+
+.titulo {
     display:flex;
+    
+}
+#derecha {
+    justi
+}
+.head {
+    display: flex;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
-.header left {
-    display:flex
+.contenido {
+    margin:auto;
+    padding: 15px;
+}
+.header left *{
+    display:inline-flex ;
+    
 }
 img{
-    width: 300;
+    width: 360;
     height: 400;
 }
