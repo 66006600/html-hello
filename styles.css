@@ -14,16 +14,17 @@ h1 {
     width: 300px;
     margin: 0% auto;
 }
-.container-flex {
-    flex-direction: column;
+.container-fluid {
+  width: 100%;
+  display: grid;
+  place-content: center;    
     
 }
 .post {
     background-color: white;
-    border:1px solid red;
+    
     margin-top: 30px;
-    width: 400px;
-    padding: 5px;
+    width: 400px;    
 
 }
 .post-header {
@@ -33,10 +34,12 @@ h1 {
     border-bottom: 1px solid rgb(223, 221, 221);   
     font-size: 10px; 
     background-color: rgb(235, 239, 235);
-}
-img {
-    width: 400;
+    padding: 4px 10px;
     
+}     
+.post-footer {
+    padding: 4px 15px;
+    font-size: 13px;
 }
 
 
